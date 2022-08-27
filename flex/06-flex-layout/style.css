@@ -38,6 +38,7 @@ input {
   list-style: none;
 }
 
-ul {
+li {
   display: inline-block;
+  margin: 8px;
 }
