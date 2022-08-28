@@ -34,8 +34,6 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  margin: 8px;
-  padding: 8px;
 
 }
 
