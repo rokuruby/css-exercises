@@ -1,6 +1,6 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 0;
+  margin: auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ body {
 
 .sidebar {
   flex: 1;
-  width: 300px;
+  min-width: 300px;
   background: royalblue;
   list-style: none;
   padding: 16px;
@@ -43,7 +43,7 @@ body {
   padding: 32px;
   height: 300px;
   width: 300px;
-  margin: 100px;
+  margin: 60px;
 
 }
 
@@ -64,4 +64,5 @@ a, .li, ul {
 .midsection {
  display: flex;
  flex-direction: row;
+ 
 }
