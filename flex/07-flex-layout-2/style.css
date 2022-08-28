@@ -5,48 +5,63 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
+
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  justify-content: flex-start;
+  padding: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
+  flex: 1;
   width: 300px;
   background: royalblue;
   list-style: none;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 32px;
+  height: 300px;
+  width: 300px;
+  margin: 100px;
+
 }
 
-.midsection {
-  display: flex;
-  justify-content: space-between;
-}
 
 .content {
   display: flex;
   overflow-wrap: normal;
-  justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 
 a, .li, ul {
   color: white;
   text-decoration: none;
   list-style: none;
-
+  font-size: 24px;
 }
 
-
+.midsection {
+ display: flex;
+ flex-direction: row;
+}
