@@ -22,9 +22,7 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  color: white;
-  text-decoration: none;
-
+  list-style: none;
 }
 
 .card {
@@ -44,8 +42,11 @@ body {
   justify-content: space-between;
 }
 
-li {
+a, .li, ul {
+  color: white;
+  text-decoration: none;
   list-style: none;
 
-
 }
+
+
